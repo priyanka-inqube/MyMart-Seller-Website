@@ -1,0 +1,338 @@
+<div class="dashboard-title-bar d-flex justify-content-between">
+    <h1 class="page-title"><span class="icon back-icon-dash-m"></span>Import List</h1>
+    <nav class="breadcrumb-wrap" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Grocery Products</a></li>
+            <li class="breadcrumb-item active"><a href="#">Import List</a></li>
+        </ol>
+    </nav>
+</div>
+<!-- dashboard-title ends -->
+<!--dashboard product listing-->
+<div class="dashboard-product-listing">
+    <div class="row">
+        <div class="col col-right product-list-filter-r">
+            <!-- product list filter-->
+            <div class="product-list-filter">
+                <div class="product-list-filter-b">
+                    <div class="product-list-filter-b-l">
+                        <!-- Select all check-->
+                        <div class="form-check pink_check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                            <label class="form-check-label" for="flexCheckDefault">Select All in this page </label>
+                        </div>
+                        <button class="btn btn-import-store">Import To Store</button>
+                    </div>
+                    <div class="product-list-filter-b-r">
+                        <!-- search product-->
+                        <div class="search-product">
+                            <input class="form-control" type="text" name="" placeholder="Search"><svg class="icon"
+                                width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="5.91429" cy="5.67619" r="4.67619" stroke="#130F26" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M9.16667 9.17139L11 11" stroke="#130F26" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <!-- all brands drops-->
+                        <div class="filter-select-box">
+                            <label>Group : </label><select class="form-select">
+                                <option selected> All Brands</option>
+                                <option value="1">Option 2</option>
+                                <option value="2">Option 3</option>
+                                <option value="3">Option 4</option>
+                            </select>
+                        </div>
+                        <!--product Number-->
+                        <div class="product-numbers">
+                            <p> <strong> 1-48 of 323 results </strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- product import lists-->
+            <div class="product-import-lists">
+                <!--product import lists-->
+                <div class="product-import-list">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="tab_check_box">
+                            <div class="form-check pink_check">
+                                <input class="form-check-input" id="product_import_check_1" type="checkbox" value=""
+                                    checked="">
+                            </div>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-products-1" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Products</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-description-1" type="button" role="tab"
+                                aria-controls="pills-home" aria-selected="true">Description</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Variants-1" type="button" role="tab"
+                                aria-controls="pills-profile" aria-selected="false">Variants (3) </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Images-1" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Images (4)</button>
+                        </li>
+                        <li class="right-btns">
+                            <div class="dropdown more_action_btn">
+                                <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton1" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">More Actions</button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                                <button class="btn btn-blue" type="button">Import To Store</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-products-1" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="pi-product-tab-sec">
+                                <div class="pi-product-side-l">
+                                    <h2 class="title">Hego NZ Blank Angus Beef Ribeye - <span class="price">QAR 50.33
+                                        </span></h2>
+                                    <p class="units">1kg</p>
+                                    <div class="graphic"><img src="assets/images/Frame 10049.jpg" alt=""></div>
+                                </div>
+                                <div class="pi-product-side-r">
+                                    <form class="row g-1">
+                                        <div class="p-form-r col-12">
+                                            <label class="form-label" for="">Enter your unique SKU</label>
+                                            <input class="form-control" type="text" id=""
+                                                placeholder="Enter your unique SKU (eg : hego_beef_1)">
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <label class="form-label" for="">Enter your retail price (No Min - Max
+                                                55.00)</label>
+                                            <div class="p-form-r-inline">
+                                                <label class="form-label" for="">QAR</label>
+                                                <input class="form-control" type="text" id=""
+                                                    placeholder="Enter your unique SKU (eg : hego_beef_1)">
+                                            </div>
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <label class="form-label" for="">Enter the stock to begin with</label>
+                                            <input class="form-control" type="text" id=""
+                                                placeholder="Enter the stock to begin with (eg : 20)">
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="s-w-u-stock-1" type="checkbox"
+                                                    value="" checked="">
+                                                <label class="form-check-label" for="s-w-u-stock-1">Select to sell
+                                                    without updating stock</label>
+                                            </div>
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="m-a-favourite-1" type="checkbox"
+                                                    value="">
+                                                <label class="form-check-label" for="m-a-favourite-1">Mark as
+                                                    Favourite</label>
+                                            </div>
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="a-s-subscription-1" type="checkbox"
+                                                    value="">
+                                                <label class="form-check-label" for="a-s-subscription-1">Select to allow
+                                                    scheduling &amp; subscription for product</label>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-area">
+                                            <div class="p-form-r col-6">
+                                                <div class="form-check disable">
+                                                    <input class="form-check-input" id="d-r-a-1-1" type="checkbox"
+                                                        value="">
+                                                    <label class="form-check-label" for="d-r-a-1-1">Delivery Rule Area
+                                                        1</label>
+                                                </div>
+                                            </div>
+                                            <div class="p-form-r col-6">
+                                                <div class="form-check disable">
+                                                    <input class="form-check-input" id="d-r-a-2-1" type="checkbox"
+                                                        value="">
+                                                    <label class="form-check-label" for="d-r-a-2-1">Delivery Rule Area
+                                                        2</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-description-1" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">...</div>
+                        <div class="tab-pane fade" id="pills-Variants-1" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">...</div>
+                        <div class="tab-pane fade" id="pills-Images-1" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">...</div>
+                    </div>
+                </div>
+                <!--product import lists-->
+                <div class="product-import-list">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="tab_check_box">
+                            <div class="form-check pink_check">
+                                <input class="form-check-input" id="product_import_check_1" type="checkbox" value=""
+                                    checked="">
+                            </div>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-products-1" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Products</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-description-1" type="button" role="tab"
+                                aria-controls="pills-home" aria-selected="true">Description</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Variants-1" type="button" role="tab"
+                                aria-controls="pills-profile" aria-selected="false">Variants (3) </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Images-1" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Images (4)</button>
+                        </li>
+                        <li class="right-btns">
+                            <div class="dropdown more_action_btn">
+                                <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton1" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">More Actions</button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                                <button class="btn btn-blue" type="button">Import To Store</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-products-1" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="pi-product-tab-sec">
+                                <div class="pi-product-side-l">
+                                    <h2 class="title">Hego NZ Blank Angus Beef Ribeye - <span class="price">QAR 50.33
+                                        </span></h2>
+                                    <p class="units">1kg</p>
+                                    <div class="graphic"><img src="assets/images/Frame 10049.jpg" alt=""></div>
+                                </div>
+                                <div class="pi-product-side-r">
+                                    <form class="row g-1">
+                                        <div class="p-form-r col-12">
+                                            <label class="form-label" for="">Enter your unique SKU</label>
+                                            <input class="form-control" type="text" id=""
+                                                placeholder="Enter your unique SKU (eg : hego_beef_1)">
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <label class="form-label" for="">Enter your retail price (No Min - Max
+                                                55.00)</label>
+                                            <div class="p-form-r-inline">
+                                                <label class="form-label" for="">QAR</label>
+                                                <input class="form-control" type="text" id=""
+                                                    placeholder="Enter your unique SKU (eg : hego_beef_1)">
+                                            </div>
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <label class="form-label" for="">Enter the stock to begin with</label>
+                                            <input class="form-control" type="text" id=""
+                                                placeholder="Enter the stock to begin with (eg : 20)">
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="s-w-u-stock-1" type="checkbox"
+                                                    value="" checked="">
+                                                <label class="form-check-label" for="s-w-u-stock-1">Select to sell
+                                                    without updating stock</label>
+                                            </div>
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="m-a-favourite-1" type="checkbox"
+                                                    value="">
+                                                <label class="form-check-label" for="m-a-favourite-1">Mark as
+                                                    Favourite</label>
+                                            </div>
+                                        </div>
+                                        <div class="p-form-r col-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" id="a-s-subscription-1" type="checkbox"
+                                                    value="">
+                                                <label class="form-check-label" for="a-s-subscription-1">Select to allow
+                                                    scheduling &amp; subscription for product</label>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-area">
+                                            <div class="p-form-r col-6">
+                                                <div class="form-check disable">
+                                                    <input class="form-check-input" id="d-r-a-1-1" type="checkbox"
+                                                        value="">
+                                                    <label class="form-check-label" for="d-r-a-1-1">Delivery Rule Area
+                                                        1</label>
+                                                </div>
+                                            </div>
+                                            <div class="p-form-r col-6">
+                                                <div class="form-check disable">
+                                                    <input class="form-check-input" id="d-r-a-2-1" type="checkbox"
+                                                        value="">
+                                                    <label class="form-check-label" for="d-r-a-2-1">Delivery Rule Area
+                                                        2</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-description-1" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">...</div>
+                        <div class="tab-pane fade" id="pills-Variants-1" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">...</div>
+                        <div class="tab-pane fade" id="pills-Images-1" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">...</div>
+                    </div>
+                </div>
+            </div>
+            <!-- product footer-->
+            <div class="product-item-footer">
+                <div class="product-item-footer-l">
+                    <div class="form-check pink_check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckDefault">Select All in this page </label>
+                    </div>
+                    <div class="selected_item">1 Products & Variant selected</div>
+                </div>
+                <div class="product-item-footer-r">
+                    <nav class="Page_navigation">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link prev" href="#">
+                                    <div class="icon fa fa-angle-left"></div>Previous
+                                </a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link next" href="#">Next <div
+                                        class="icon fa fa-angle-right"></div></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
