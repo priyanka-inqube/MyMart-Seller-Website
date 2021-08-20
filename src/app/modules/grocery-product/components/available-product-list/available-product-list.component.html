@@ -19,13 +19,46 @@
             class="btn btn-white brand-switch-btn" href="">Group : <strong>All Brands</strong></a></div>
         <!-- All brand lists-->
         <ul class="all-brand-lists list-group">
-
-          <li *ngFor="let cat of groceryCategories" class="has_sub on"><a (click)="subLevelCategory(cat)">{{cat}}</a>
-            <ul *ngFor="let subCat of subCategories" class="list-group list-depth-2">
-              <li><a href="">{{subCat}}</a>
+          <li class="has_sub on"><a href="">Meat & Seafood</a>
+            <ul class="list-group list-depth-2">
+              <li><a href="">Fresh Seafood</a>
+              <li>
+              <li class="active"><a href="">Fresh Meat</a>
+              <li>
+              <li><a href="">Frozen Meat</a>
               <li>
             </ul>
-            <li>
+          </li>
+          <li class="has_sub"><a href="">Fruit & Vegetables</a>
+          <li>
+          <li class="has_sub"><a href="">Rice & Cooking Essentials</a>
+          <li>
+          <li class="has_sub"><a href="">Beverages</a>
+          <li>
+          <li class="has_sub"><a href="">Household</a>
+          <li>
+          <li class="has_sub"><a href="">Mother & Baby</a>
+          <li>
+          <li class="has_sub"><a href="">Home & Lifestyle</a>
+          <li>
+          <li class="has_sub"><a href="">Dairy, Chilled & Eggs</a>
+          <li>
+          <li class="has_sub"><a href="">Frozen</a>
+          <li>
+          <li class="has_sub"><a href="">Choco, Snacks, Sweets</a>
+          <li>
+          <li class="has_sub"><a href="">Bakery & Breakfast</a>
+          <li>
+          <li class="has_sub"><a href="">Beauty</a>
+          <li>
+          <li class="has_sub"><a href="">Health</a>
+          <li>
+          <li class="has_sub"><a href="">Pet Care</a>
+          <li>
+          <li class="has_sub"><a href="">Party Supplies</a>
+          <li>
+          <li class="has_sub"><a href="">Kitchen & Dining</a>
+          <li>
         </ul>
       </section>
     </div>
@@ -506,7 +539,7 @@
               <li class="page-item"><a class="page-link" href="#">2</a></li>
               <li class="page-item"><a class="page-link" href="#">3</a></li>
               <li class="page-item"><a class="page-link next" href="#">Next <div class="icon fa fa-angle-right"></div>
-                  </a></li>
+                </a></li>
             </ul>
           </nav>
         </div>
